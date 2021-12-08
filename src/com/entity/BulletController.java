@@ -34,8 +34,6 @@ public class BulletController {
                 isBulletKilled[bulletCounter] = false;
                 BulletCooldown cooldown = new BulletCooldown();
                 cooldown.cooldownTimer(bulletCounter);
-                //cooldown = null; //TODO: Maybe remove this since java already handles this though garbage collection --> STATUS: DONE
-                //System.out.println(bullets[bulletCounter]);
                 bulletCounter++;
             } else {
                 //System.out.println("...");
@@ -54,7 +52,6 @@ public class BulletController {
         for (int i = 0; i < bullets.length; i++) {
             if(bullets[i] != null){
                 if(isBulletKilled[i] == false) { //Only draw bullets if they are not killed
-                   // System.out.println("drawing");
                     bullets[i].draw(graphics2D);
                 }
             }
