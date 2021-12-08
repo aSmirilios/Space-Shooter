@@ -33,8 +33,7 @@ public class AsteroidsController {
                     for (int i = 0; i < Constants.MAX_ASTEROIDS; i++) {
                         int indexRandom = indexRnd.nextInt(0,3);
                         int offSetMultiplier = rnd.nextInt(Constants.SCREEN_WIDTH + Constants.LEFT_BOARDER_X - (Constants.LARGE_ASTEROID_XPOINTS[4] - Constants.LARGE_ASTEROID_XPOINTS[1]) - Constants.RIGHT_BOARDER_Y);
-                       // System.out.println(indexRandom);
-                  //After debugging i have found our that the cooldown is too large and this if statement never runs
+        
                             if (indexRandom == 0) {
                                 if (asteroids[i] == null) {
                                     asteroids[i] = new Asteroid((-Constants.LARGE_ASTEROID_XPOINTS[1] + Constants.LEFT_BOARDER_X + 1) + offSetMultiplier, -12, 0);
