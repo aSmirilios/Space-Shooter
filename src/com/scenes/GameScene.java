@@ -65,7 +65,7 @@ public class GameScene extends Scene{
         if(ScoreCounter.penalties == 200){
             numberToShow = two;
         }
-        if(ScoreCounter.penalties == 300) {
+        if(ScoreCounter.penalties >= 300) {
             numberToShow = three;
             Window.getWindow().changeScene(2);
         }
