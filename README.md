@@ -12,3 +12,6 @@ A simple space shooter game made by: AGGELOS SMYRILIOS
 !!!CONTROLS!!!
 --> You shoot with the Spacebar
 --> You move right and left with the right and left arrows
+
+Πηγές(για τα γραφικα):
+https://www.youtube.com/channel/UCQP4qSCj1eHMHisDDR4iPzw
